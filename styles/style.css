@@ -104,7 +104,6 @@ ul li a {
 }
 
 
-
 @media screen and (max-width: 576px) {
 
     nav {
@@ -117,12 +116,48 @@ ul li a {
         align-items: center;
     }
 
-    ul {
+    ul li {
         margin-top: 30px;
     }
 
-    ul li {
+    .banner-container {
+        flex-direction: column-reverse;
+        padding: 0px;
+        background: none;
+    }
+
+    .banner-content {
+        background-image: url('../images/Group\ 14.png');
+        background-repeat: no-repeat;
         margin-top: 30px;
+        max-width: 80%;
+        /* width: 80%; */
+        padding: 20px;
+        text-align: start;
+    }
+
+    .banner-title-one {
+        font-size: 2rem;
+    }
+
+    .banner-title-two {
+        font-size: 65px;
+    }
+
+    .btn-primary {
+        font-size: 16px;
+        padding: 20px 25px;
+    }
+
+    .btn-special {
+        font-size: 16px;
+        padding: 20px 25px;
+        margin: 5px;
+    }
+
+    .banner-img img {
+        max-width: 100%;
+        margin: 0 auto;
     }
 }
 
@@ -134,5 +169,20 @@ ul li a {
 
     ul {
         margin-top: 30px;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+        padding: 0px;
+        background: none;
+    }
+
+    .banner-content {
+        background-image: url('../images/Group\ 14.png');
+        background-repeat: no-repeat;
+        margin-top: 40px;
+        max-width: 80%;
+        padding: 40px 170px;
+        text-align: start;
     }
 }
