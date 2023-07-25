@@ -211,7 +211,7 @@ WE are gamer related styles
 .more-games-contents div {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #fff;
     border-radius: 50px;
     padding: 10px 10px;
@@ -224,7 +224,45 @@ WE are gamer related styles
     }
 }
 
+footer {
+    background: #0B0223;  
+    padding: 120px 240px 80px;
+}
 
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.footer-title {
+    color: #fff;
+    font-size: 3rem;
+    margin-left: 20px;
+}
+
+.footer-details {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.footer-details p, .footer-more-details p {
+    margin-right: 40px;
+}
+
+.footer-more-details {
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.60);
+    margin-top: 40px;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    margin-top: 20px;
+}
 
 /* -----------------------------------------------------
 -----------------------------------------------------
@@ -259,7 +297,6 @@ WE are gamer related styles
         background-repeat: no-repeat;
         margin-top: 30px;
         max-width: 80%;
-        /* width: 80%; */
         padding: 20px;
         text-align: start;
     }
@@ -361,8 +398,8 @@ WE are gamer related styles
     .play-instantly-img-two {
         width: 30%;
         position: absolute;
-        right: 220px;
-        top: 480px;
+        right: 240px;
+        top: 500px;
     }
 
     .more-games-container {
@@ -379,6 +416,7 @@ WE are gamer related styles
     }
 
     .more-games-contents div {
+        justify-content: center;
         padding: 5px 10px;
         grid-column-start: span 2;
 
@@ -387,11 +425,11 @@ WE are gamer related styles
         }
     }
 
-    .more-games-contents div>img{
+    .more-games-contents div>img {
         width: 10px;
     }
-    
-    .more-games-contents div>p{
+
+    .more-games-contents div>p {
         font-size: 8px;
     }
 }
@@ -487,6 +525,7 @@ WE are gamer related styles
         right: 420px;
         top: 600px;
     }
+
     .more-games-container {
         padding: 50px 0;
         margin: 100px 40px 0;
@@ -507,11 +546,11 @@ WE are gamer related styles
         }
     }
 
-    .more-games-contents div>img{
+    .more-games-contents div>img {
         width: 40px;
     }
-    
-    .more-games-contents div>p{
+
+    .more-games-contents div>p {
         font-size: 12px;
     }
 }
