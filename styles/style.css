@@ -32,20 +32,46 @@ nav {
     color: #FF42A5;
 }
 
-nav > ul{
+nav>ul {
     display: flex;
 }
 
-nav > ul li {
+nav>ul li {
     list-style: none;
     margin-right: 30px;
 }
-ul li a{
+
+ul li a {
     color: #3C354F;
     text-decoration: none;
 }
-.follow-us{
+
+.follow-us {
     background-color: rgba(11, 2, 35, 0.10);
     padding: 10px 20px;
     border-radius: 8px;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    header {
+        margin: 80px 10px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav>ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul {
+        margin-top: 30px;
+    }
+    ul li {
+        margin-top: 30px;
+    }
 }
