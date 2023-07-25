@@ -20,6 +20,12 @@
     -webkit-text-fill-color: transparent;
 }
 
+.title-primary {
+    font-size: 3rem;
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
 /* Nav related styles */
 
 nav {
@@ -125,12 +131,6 @@ WE are gamer related styles
     text-align: end;
 }
 
-.gamer-title {
-    font-size: 3rem;
-    margin-bottom: 24px;
-    font-weight: 700;
-}
-
 .gamer-description {
     color: #534C64;
     font-size: 18px;
@@ -177,10 +177,24 @@ WE are gamer related styles
 }
 
 
+.play-instantly {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 240px;
+    position: relative;
+}
 
+.play-instantly-contents {
+    max-width: 400px;
+    text-align: end;
+}
 
-
-
+.play-instantly-img-two {
+    position: absolute;
+    right: 450px;
+    top: 380px;
+}
 
 
 
@@ -261,7 +275,7 @@ WE are gamer related styles
         text-align: center;
     }
 
-    .gamer-title {
+    .title-primary {
         font-size: 2.5rem;
         margin-bottom: 14px;
         font-weight: 700;
@@ -298,6 +312,30 @@ WE are gamer related styles
 
     .games-card p {
         max-width: 100%;
+    }
+
+    .play-instantly {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        text-align: center;
+    }
+
+    .play-instantly-contents {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .play-instantly-img-one {
+        width: 70%;
+        margin-left: 50px;
+    }
+
+    .play-instantly-img-two {
+        width: 30%;
+        position: absolute;
+        right: 220px;
+        top: 480px;
     }
 }
 
@@ -350,7 +388,7 @@ WE are gamer related styles
         text-align: center;
     }
 
-    .gamer-title {
+    .title-primary {
         margin-bottom: 5px;
     }
 
@@ -358,6 +396,7 @@ WE are gamer related styles
         padding: 40px;
         margin-bottom: 5px;
     }
+
     .online-games-contents {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -366,5 +405,28 @@ WE are gamer related styles
 
     .games-card {
         text-align: center;
+    }
+    .play-instantly {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        text-align: center;
+    }
+
+    .play-instantly-contents {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .play-instantly-img-one {
+        width: 60%;
+        margin-left: 150px;
+    }
+
+    .play-instantly-img-two {
+        width: 30%;
+        position: absolute;
+        right: 420px;
+        top: 600px;
     }
 }
