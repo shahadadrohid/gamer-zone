@@ -151,6 +151,39 @@ WE are gamer related styles
 }
 
 
+/* Online games related styles */
+
+.online-games-text {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.online-games-contents {
+    display: flex;
+    margin: 0 240px;
+    gap: 20px;
+}
+
+.games-card-img {
+    margin-bottom: 20px;
+}
+
+.games-card-img:hover {
+    cursor: pointer;
+    border-radius: 16px;
+    
+    /* background-color: #0B0223; */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%);
+}
+
+
+
+
+
+
+
+
+
 
 /* -----------------------------------------------------
 -----------------------------------------------------
