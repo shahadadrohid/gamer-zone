@@ -184,7 +184,6 @@ WE are gamer related styles
 
 .games-card-img {
     margin-bottom: 20px;
-    /* display: block; */
     width: 100%;
 }
 
@@ -208,6 +207,7 @@ WE are gamer related styles
 
 .hover-effects:hover {
     opacity: 1;
+    cursor: pointer;
 }
 
 .hover-effects p {
@@ -245,6 +245,7 @@ WE are gamer related styles
     grid-template-columns: repeat(10, 1fr);
     gap: 20px;
     text-align: center;
+    font-weight: 600;
 }
 
 .more-games-contents div:hover {
@@ -340,7 +341,7 @@ footer {
 @media screen and (max-width: 576px) {
 
     nav {
-        margin: 80px 10px;
+        margin: 50px 10px;
         flex-direction: column;
     }
 
@@ -357,6 +358,7 @@ footer {
         flex-direction: column-reverse;
         padding: 0px;
         background: none;
+        text-align: center;
     }
 
     .banner-content {
