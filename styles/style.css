@@ -71,6 +71,10 @@ ul li a {
     border-radius: 8px;
 }
 
+.youtube {
+    color: #F61C0D;
+}
+
 /* Banner related styles */
 
 .banner-container {
@@ -112,6 +116,10 @@ ul li a {
     background: #4EC5F7;
 }
 
+.play,
+.download {
+    color: #F61C0D;
+}
 
 /* -----------------------------------------------------
 
@@ -225,7 +233,7 @@ WE are gamer related styles
 }
 
 footer {
-    background: #0B0223;  
+    background: #0B0223;
     padding: 120px 240px 80px;
 }
 
@@ -248,7 +256,8 @@ footer {
     color: #fff;
 }
 
-.footer-details p, .footer-more-details p {
+.footer-details p,
+.footer-more-details p {
     margin-right: 40px;
 }
 
@@ -258,10 +267,31 @@ footer {
     color: rgba(255, 255, 255, 0.60);
     margin-top: 40px;
 }
-.copyright{
+
+.copyright {
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
     margin-top: 20px;
+}
+
+.footer-logos ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.footer-logos li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+.facebook {
+    color: #0165E1;
+}
+
+.linkedin {
+    color: #0A66C2;
 }
 
 /* -----------------------------------------------------
@@ -432,6 +462,31 @@ footer {
     .more-games-contents div>p {
         font-size: 8px;
     }
+
+
+    footer {
+        padding: 120px 0px 100px;
+    }
+
+    .footer-details {
+        flex-wrap: wrap;
+        font-size: 16px;
+    }
+
+    .footer-details p,
+    .footer-more-details p {
+        margin: 0 20px 20px;
+    }
+
+    .footer-more-details {
+        flex-wrap: wrap;
+        font-size: 14px;
+    }
+
+    .footer-logos ul {
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
 }
 
 
@@ -552,5 +607,14 @@ footer {
 
     .more-games-contents div>p {
         font-size: 12px;
+    }
+
+    footer {
+        padding: 120px 0px 100px;
+    }
+
+    .footer-details p,
+    .footer-more-details p {
+        margin: 0 20px 0px;
     }
 }
